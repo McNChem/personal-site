@@ -1,0 +1,202 @@
+
+body {
+  height:100%;
+  background-color:#99c18a;
+ }
+
+p{
+  color: black;
+  font-size: 22px;
+}
+
+header{
+    padding: 35px;
+    float: right;
+}
+h1{
+  font-size: 4.5em;
+  padding: 15px 10px;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+section{
+  display: flex;
+}
+
+/* Navigation */
+nav{
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  color: #fff;
+ 
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  padding: 0px 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/** Intro Header Titles **/
+#welcome{
+  flex: inline-block;
+}
+span{
+  color: #fff;
+  padding-right: 2em;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive
+  
+}
+.subtopic{
+  padding: 15px 10px;
+}
+
+/** About **/
+
+#about{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(240,255,255);
+  margin-top: 3px ; 
+  border-color: rgb(48,48,48);
+  border-style: solid;
+  border-left:none;
+  border-right: none;
+}
+.about{
+  text-align: center;
+}
+/** Portfolio **/
+
+#portfolio{
+  flex-direction: column;
+  align-items: center;
+}
+#portfolio-heading{
+	text-align: center;
+	
+}
+.portfolio-content{
+  display: flex;
+}
+
+.p-third-width{
+  flex-wrap: wrap;
+  flex: 1 200px;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+
+/** Contact **/
+h3{
+  margin: 0px;
+}
+#contact{
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240,255,255);
+  margin-top: 3px ; 
+  border-color: rgb(48,48,48);
+  border-style: solid;
+  border-left:none;
+  border-right: none;
+  text-align: center;
+  
+}
+
+.contact-content{
+  display: flex;
+}
+
+.contact-third-width{
+  flex-wrap: wrap;
+  flex:  200px;
+  justify-content: space-between;
+  margin-top: auto;
+  align-items: center;
+  text-align: center;
+}
+me{
+  font-size: 24px;
+  text-align: center;
+  
+}
+#hello{
+  font-size: 24px;
+  text-align: center;
+}
+/** Image Styles **/
+img{
+    border-radius: 14%;
+}
+
+/** Icons **/
+  .social-media{
+	font-size: 40px;
+	text-align: center;
+
+  }
+  .fab{
+	  color: #931319;
+  }
+  
+  
+/** Footer **/
+
+.footer-container{
+  display: block;
+  flex-direction: row;
+  height: 75px;
+}
+footer {
+  background-color: #99c18a;
+  color: white;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+ 
+#footer-name{
+  font-size: 2em;
+  padding: 0px;
+}
+
+/** Responsive web design **/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {nav {position: relative;}
+  nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: smaller;}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {nav {position: relative;}
+  nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    }
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...} **/
